@@ -1,11 +1,11 @@
 # Kodluyoruz Ilk Repo
 ---
 ## Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
-![Resim](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/github.png)
+![Resim](https://app.patika.dev/patikaLogo.png)
 
 ## Installation
 ---
-Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
+Clonlanmış proje linki...
 ```Gitlink
 https://github.com/rtahabas/kodluyoruzilkrepo.git
 ```
