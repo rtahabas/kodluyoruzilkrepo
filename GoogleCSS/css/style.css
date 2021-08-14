@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.flexitem {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  height: 60px;
+  justify-content: flex-end;
+}
+
+.toplinks-left > a {
+  padding: 10px;
+}
+
+.tabicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: #5f6368;
+}
+
+.login {
+  color: white;
+  background-color: #1a73e8;
+  border-radius: 5px;
+  padding: 10px 29px !important;
+  margin-right: 16px;
+  margin-left: 15px;
+}
+
+.iconhover:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.iconhover {
+  position: relative;
+  background-color: none;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/**************** Dropdown ***************/
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 65px;
+  right: -130px;
+  width: 330px;
+  height: 485px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+#dropdown1.active {
+  display: block;
+}
+
+.dropdown > ul > li {
+  display: inline-block;
+}
+.dropdown > ul > li > a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+.dropdown > ul > li:hover {
+  background-color: #e8f0fe;
+  border: none;
+  border-radius: 8px;
+}
+
+.dropdown-icons {
+  width: 84px;
+  height: 84px;
+  text-align: center;
+}
+
+.dropdown-icons > span {
+  background-image: url(/images/icons.png);
+  display: block;
+  height: 68px;
+  background-size: 64px 3100px;
+  background-repeat: no-repeat;
+}
+.first-icon {
+  background-position: 10px -1587px;
+}
+.second-icon {
+  background-position: 10px -1794px;
+}
+.third-icon {
+  background-position: 10px -483px;
+}
+.fifth-icon {
+  background-position: 10px -2622px;
+}
+.sixth-icon {
+  background-position: 10px -207px;
+}
+.seventh-icon {
+  background-position: 10px -1311px;
+}
+.nineth-icon {
+  background-position: 10px -2001px;
+}
+.ten-icon {
+  background-position: 10px -690px;
+}
+.eleven-icon {
+  background-position: 10px -1656px;
+}
+.thirteen-icon {
+  background-position: 10px -2898px;
+}
+.fourteen-icon {
+  background-position: 10px -2967px;
+}
+.fifteen-icon {
+  background-position: 10px -2553px;
+}
+.sixteen-icon {
+  background-position: 10px -1932px;
+}
+.seventeen-icon {
+  background-position: 10px -2829px;
+}
+.nineteen-icon {
+  background-position: 10px -2484px;
+}
+
+
+/**************** Dropdown ***************/
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.searchtab {
+  margin: 0 auto;
+}
+
+.st-up {
+  width: 555px;
+  height: 38px;
+  padding: 5px 8px 0 16px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  margin-top: 24px;
+}
+
+.st-up:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.searchinput {
+  display: flex;
+  flex: 100%;
+  height: 34px;
+  margin-right: 15px;
+  border: none;
+}
+
+.searchinput:focus {
+  outline: none;
+}
+
+.dedektif > span > svg {
+  height: 20px;
+  fill: #9aa0a6;
+}
+
+.voice {
+  height: 32px;
+  width: 32px;
+  padding: 0px 8px;
+}
+
+.st-up-right {
+  width: 27px;
+  height: 27px;
+  padding: 0px 8px;
+  align-items: center;
+  display: flex;
+  margin-top: -5px;
+}
+
+.st-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.searchbutton {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+}
+
+.searchbutton:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+}
+
+/*************Footer************/
+
+.space {
+  min-height: 355px;
+}
+footer {
+  background-color: #f2f2f2;
+}
+.footer-top {
+  height: 100%;
+  padding: 12px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.aboutgoogle {
+  justify-content: space-between;
+  padding: 12px 30px;
+}
+
+.aboutgoogle > div > a {
+  padding-right: 25px;
+  color: #70757a;
+}
+
+.ag-middle {
+  margin-right: 134px;
+}
